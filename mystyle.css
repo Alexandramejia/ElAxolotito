@@ -1,0 +1,37 @@
+
+body {
+    background-color: #f4f4ca;
+  }
+  
+.header {
+    text-align: center;
+    background-color: #f7d7ba;
+}
+
+img{
+    width: 200px;
+    height: auto; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #f4b3b3;
+    padding: 1%;
+    margin: 1%;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #f3a3a3;
+}
+
+.navbar li{
+    float:left
+}
