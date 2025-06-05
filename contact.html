@@ -38,10 +38,34 @@
         <h1> WORK IN PROGRESS</h1>
     </div>
 
-    <main>
-        <h3>This is the Contact page</h3>
-        <p>Coming soon...</p>
-    </main>
+    <main class="contact-page">
+        <section class="contact-form-section">
+          <h2>Contact Us</h2>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+
+        <section class="map-section">
+            <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24186.538516647302!2d-73.89973728916014!3d40.733042800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e35d93207ff%3A0x646060e2057c5f9d!2sChipotle%20Mexican%20Grill!5e0!3m2!1sen!2sus!4v1749131634972!5m2!1sen!2sus" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+          </section>
 </body>
 
 </html>
