@@ -116,6 +116,24 @@ header {
     }
 }
 
+/* FULL WEBSITE REPONISEVE */
+@media only screen and (max-width: 768px) {
+    .hero-banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-image img {
+      width: 150px;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+
 /* BANNER */
 
 .hero-banner {
