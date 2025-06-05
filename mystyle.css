@@ -265,6 +265,14 @@ img{
   to {opacity: 1}
 }
 
+/* FOOTEr */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #f8bdbd;
+    color: white;
+  }
+
 /* MENU TAB */
 
 .food-card {
