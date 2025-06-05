@@ -1,24 +1,19 @@
 
 body {
     background-color: #f4f4ca;
+    margin: 0;
   }
   
 .header {
     text-align: center;
-    background-color: #f7d7ba;
-}
-
-img{
-    width: 200px;
-    height: auto; 
+    background-color: #f25694;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: #f4b3b3;
-    padding: 1%;
-    margin: 1%;
+    background-color: #f8bdbd;
     overflow: hidden;
+    margin: 0;
 }
 
 .navbar a{
@@ -35,3 +30,100 @@ img{
 .navbar li{
     float:left
 }
+
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10;
+    padding: 20px;
+    background-color: #f7d7ba;
+}
+
+.hero-name {
+    display: flex;
+    align-items: center;
+    flex-basis: 10;
+    font-family: "Brush Script", cursive;
+    font-size: 50px;
+    font-weight: 100; 
+    margin: 0;
+}
+
+.hero-description {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+img{
+    width: 200px;
+    height: auto; 
+    
+}
+
+
+/* MENU TAB */
+.food-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+  }
+  
+  .food-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .food-names {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.3em;
+    text-align: center;
+  }
+  
+  .food-description {
+    font-size: 0.95rem;
+    text-align: center;
+    color: #555;
+  }
+  
+  .menu-category {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .drinks-section {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .drink-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .drink-column {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .sub-category {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
