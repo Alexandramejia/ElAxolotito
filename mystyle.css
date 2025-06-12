@@ -57,6 +57,7 @@ header {
     font-size: 2rem;
 }
 
+
 .nav-link { 
     transition: 0.7s ease;
 }
@@ -141,6 +142,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin: 10;
     padding: 20px;
     background-color: #f7d7ba;
@@ -186,7 +189,6 @@ img{
     object-fit: cover;
   }  
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
@@ -213,12 +215,10 @@ img{
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -238,7 +238,6 @@ img{
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -254,7 +253,6 @@ img{
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -275,14 +273,22 @@ img{
 
 /* MENU TAB */
 
+.menu-page {
+  background-color: #fff1e6;
+  font-family: 'Comfortaa', cursive;
+  padding: 2em 1em;
+}
+
+
 .food-card {
-    background-color: #fff;
+    background-color: #fff1e6;;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     padding: 1em;
     margin: 1em 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s;
+    font-family: 'Comfortaa', cursive;
   }
   
   .food-card:hover {
@@ -307,6 +313,7 @@ img{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-family: 'Comfortaa', cursive;
   }
   
   .drinks-section {
@@ -335,4 +342,34 @@ img{
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
+    font-family: 'Comfortaa', cursive;
   }
+
+  /* ABOUT TAB */
+  .about-section {
+    background-color: #fff1e6;
+    font-family: 'Comfortaa', cursive;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .about-section h2 {
+    text-align: center;
+    color: #d95f76;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .about-section p {
+    margin-bottom: 1.5em;
+  }
+  
+  strong {
+    color: #c94c4c;
+  }
+  
