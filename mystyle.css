@@ -372,4 +372,129 @@ img{
   strong {
     color: #c94c4c;
   }
+
+  .contact-page {
+    background-color: #fff1e6;
+    font-family: 'Comfortaa', cursive;
+    padding: 2em 1em;
+  }
+  
+  .contact-form-section,
+  .map-section {
+    max-width: 800px;
+    margin: 0 auto 3em auto;
+    padding: 2em;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-section h2,
+  .map-section h2 {
+    text-align: center;
+    color: #d95f76;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .contact-form button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #f8bdbd;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #f3a3a3;
+  }
+  
+  .map-section iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  /* CONTACT PAGE */
+
+  .contact-page {
+    background-color: #f4f4ca;;
+    font-family: 'Comfortaa', cursive;
+    padding: 2em 1em;
+  }
+  
+  .contact-form-section,
+  .map-section {
+    max-width: 800px;
+    margin: 0 auto 3em auto;
+    padding: 2em;
+    background: #fff1e6;;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-section h2,
+  .map-section h2 {
+    text-align: center;
+    color: #d95f76;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .contact-form button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #f8bdbd;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #f3a3a3;
+  }
+  
+  .map-section iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
   
