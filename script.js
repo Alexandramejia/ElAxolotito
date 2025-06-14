@@ -41,3 +41,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+// no error
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contact-form");
+
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevents form from submitting and triggering server error
+    });
+  }
+});
+
+
+
