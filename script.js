@@ -71,12 +71,12 @@ function addItemToCart(title) {
 
   cartRow.innerHTML = `
     <span class="cart-item-title">${title}</span>
+    <input type="number" value="1" min="1" class="quantity-box">
     <button class="remove-button">REMOVE</button>
   `
 
   document.querySelector('.Cart-section').appendChild(cartRow)
 
-  // ✅ Attach the cart removing
   const removeButton = cartRow.querySelector('.remove-button')
   removeButton.addEventListener('click', removeCartItem)
 }
