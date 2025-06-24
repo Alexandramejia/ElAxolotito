@@ -273,6 +273,23 @@ img{
 
 /* MENU TAB */
 
+.Menu {
+  margin-top: 40px; 
+}
+
+.Menu-title {
+  text-align: center;
+  color: #d95f76;
+  background-color: #fff1e6;
+  font-family: 'Comfortaa', cursive;
+  padding: 2em 1em;
+  max-width: 800px;
+  margin: 0 auto 3em auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  line-height: 1.8;
+}
+
 .menu-page {
   background-color: #fff1e6;
   font-family: 'Comfortaa', cursive;
@@ -281,11 +298,13 @@ img{
 
 
 .food-card {
+    text-align: center; /* for the button */
     background-color: #fff1e6;;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
-    padding: 1em;
-    margin: 1em 0;
+    padding: 2em 1em;;
+    max-width: 800px;
+    margin: 0 auto 3em auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s;
     font-family: 'Comfortaa', cursive;
@@ -344,6 +363,90 @@ img{
     text-align: center;
     font-family: 'Comfortaa', cursive;
   }
+
+  .add-to-cart-button{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f8bdbd;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-to-cart-button:hover {
+    background-color: #f3a3a3;
+  }
+
+  .Cart-section {
+    background-color: #fff1e6;
+    font-family: 'Comfortaa', cursive;
+    max-width: 800px;
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-cart-header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #d95f76;
+  }
+  
+  .cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #ddd;
+}
+.cart-item,
+.cart-price,
+.cart-quantity {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 2em;
+  font-size: 1.2rem;
+  color: #333;
+}
+.cart-total-price {
+  font-weight: bold;
+  color: #000;
+  margin-left: 1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 2em auto 0 auto;
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  background-color: #f8bdbd;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-purchase:hover {
+  background-color: #f3a3a3;
+}
 
   /* ABOUT TAB */
   .about-section {

@@ -29,6 +29,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+  if (slides.length === 0) return
   let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
@@ -53,6 +54,43 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// cart adding
+
+function addToCartClicked(event) {
+  var button = event.target
+  var shopItem = button.parentElement.parentElement
+  var title = shopItem.getElementsByClassName('food-names')[0].innerText
+  console.log(title)
+  addItemToCart(title)
+}
+
+function addItemToCart(title) {
+  const cartRow = document.createElement('div')
+  cartRow.classList.add('cart-row')
+
+  cartRow.innerHTML = `
+    <span class="cart-item-title">${title}</span>
+    <button class="remove-button">REMOVE</button>
+  `
+
+  document.querySelector('.Cart-section').appendChild(cartRow)
+
+  // ✅ Attach the cart removing
+  const removeButton = cartRow.querySelector('.remove-button')
+  removeButton.addEventListener('click', removeCartItem)
+}
+
+function removeCartItem(event) {
+  const buttonClicked = event.target
+  buttonClicked.parentElement.remove()
+}
+
+var addToCartButtons = document.getElementsByClassName('add-to-cart-button')
+for (var i = 0; i < addToCartButtons.length; i++) {
+  var button = addToCartButtons[i]
+  button.addEventListener("click", addToCartClicked)
+}
 
 
 
