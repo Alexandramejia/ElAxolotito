@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './index.css'; // make sure this includes Tailwind directives
+import './index.css'; 
 
 import { Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import Menu from './Menu'
 import About from './About'
+import Contact from './Contact';
 
 
 function App() {
@@ -16,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   )
