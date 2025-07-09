@@ -234,12 +234,12 @@ export default function Menu() {
                       <h5 className="font-bold text-lg text-[#d95f76]">
                         {item.name} - ${item.price.toFixed(2)}
                       </h5>
-                      <p className="text-[#5c3c4a] text-sm text-[#FFB6C1] text- my-2">
+                      <p className="text-[#5c3c4a] text-sm text- my-2">
                         {item.description}
                       </p>
                       <button
                         onClick={() => addToCart(item)}
-                        className="text-white mt-3 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-[#5c3c4a] py-2 px-4 rounded-lg"
+                        className="text-[#5c3c4a] mt-3 bg-[#f8bdbd] hover:bg-[#f3a3a3] py-2 px-4 rounded-lg"
                       >
                         Add to Cart
                       </button>

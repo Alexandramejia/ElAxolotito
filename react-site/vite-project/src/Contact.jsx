@@ -7,7 +7,7 @@ export default function Contact() {
       <Navbar />
 
       <main className="flex-grow contact-page px-4 py-10">
-        <section className="max-w-2xl mx-auto bg-[#fff1e6] p-8 rounded-xl shadow-md">
+        <section className="w-full max-w-2xl mx-auto bg-[#fff1e6] p-8 rounded-xl shadow-md">
           <h2 className="text-center text-3xl mb-6 font-semibold text-[#d95f76]">Contact Us</h2>
           <form id="contact-form" className="flex flex-col gap-4">
             <label htmlFor="name" className="text-sm text-[#5c3c4a] font-medium">Name:</label>
@@ -46,7 +46,7 @@ export default function Contact() {
           </form>
         </section>
 
-        <section className="max-w-4xl mx-auto mt-12 px-4">
+        <section className="w-full max-w-4xl mx-auto mt-12 px-4">
           <h2 className="text-center text-2xl mb-4 font-semibold text-[#d95f76]">Find Us</h2>
           <div className="overflow-hidden rounded-xl shadow-md">
             <iframe
