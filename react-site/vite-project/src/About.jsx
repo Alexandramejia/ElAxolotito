@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 export default function About() {
   return (
-    <div className="bg-[#f4f4ca] min-h-screen flex flex-col font-sans text-gray-800">
+    <div className="bg-[#f4f4ca] min-h-screen flex flex-col font-sans text-[#5c3c4a]">
       <Navbar />
       <main className="flex-grow flex justify-center items-center px-4 py-10">
         <div className="bg-[#fff1e6] p-8 rounded-xl shadow-lg max-w-3xl w-full text-center space-y-6">

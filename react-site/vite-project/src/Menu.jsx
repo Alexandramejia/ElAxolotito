@@ -175,13 +175,13 @@ export default function Menu() {
   ];
 
     return (
-    <div className="bg-[#f4f4ca] min-h-screen flex flex-col font-[Comfortaa]">
+    <div className="bg-[#f4f4ca] min-h-screen flex flex-col font-baloo">
       <Navbar />
 
       <main className="flex-grow px-4 py-8">
         <div className="text-center text-[#d95f76] bg-[#fff1e6] rounded-2xl shadow-md p-6 mb-10 max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold">Menu</h2>
-          <p className="mt-2">Add items to cart!</p>
+          <p className="text-[#5c3c4a] mt-2">Add items to cart!</p>
         </div>
 
         {!purchased && (
@@ -196,15 +196,15 @@ export default function Menu() {
                     key={item.name}
                     className="bg-[#fff1e6] border rounded-xl shadow-md max-w-2xl mx-auto mb-6 p-6 text-center"
                   >
-                    <h4 className="font-bold text-lg">
+                    <h4 className="font-bold text-lg text-[#d95f76]">
                       {item.name} - ${item.price.toFixed(2)}
                     </h4>
-                    <p className="text-sm text-gray-700 my-2">
+                    <p className="text-sm text-[#5c3c4a] my-2">
                       {item.description}
                     </p>
                     <button
                       onClick={() => addToCart(item)}
-                      className="mt-3 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-black py-2 px-4 rounded-lg"
+                      className="mt-3 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-[#5c3c4a] py-2 px-4 rounded-lg"
                     >
                       Add to Cart
                     </button>
@@ -231,15 +231,15 @@ export default function Menu() {
                       key={item.name}
                       className="bg-[#fff1e6] border rounded-xl shadow-md max-w-2xl mx-auto mb-6 p-6 text-center"
                     >
-                      <h5 className="font-bold text-lg">
+                      <h5 className="font-bold text-lg text-[#d95f76]">
                         {item.name} - ${item.price.toFixed(2)}
                       </h5>
-                      <p className="text-sm text-gray-700 my-2">
+                      <p className="text-[#5c3c4a] text-sm text-[#FFB6C1] text- my-2">
                         {item.description}
                       </p>
                       <button
                         onClick={() => addToCart(item)}
-                        className="mt-3 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-black py-2 px-4 rounded-lg"
+                        className="text-white mt-3 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-[#5c3c4a] py-2 px-4 rounded-lg"
                       >
                         Add to Cart
                       </button>
@@ -255,7 +255,7 @@ export default function Menu() {
                 Your Cart
               </h3>
               {cart.length === 0 ? (
-                <p className="text-center text-sm">Your cart is empty</p>
+                <p className="text-center text-sm text-[#5c3c4a]">Your cart is empty</p>
               ) : (
                 <>
                   <div className="flex justify-between border-b pb-2 font-semibold text-gray-700">
@@ -265,7 +265,7 @@ export default function Menu() {
                   {cart.map((item) => (
                     <div
                       key={item.name}
-                      className="flex justify-between items-center py-2 border-b text-sm text-gray-800"
+                      className="flex justify-between items-center py-2 border-b text-sm text-[#5c3c4a]"
                     >
                       <div className="text-left">
                         <p className="font-medium">{item.name}</p>
@@ -304,7 +304,7 @@ export default function Menu() {
                     Total: ${calculateTotal()}
                   </div>
                   <button
-                    className="mt-4 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-black py-2 px-6 rounded-lg block mx-auto"
+                    className="mt-4 bg-[#f8bdbd] hover:bg-[#f3a3a3] text-[#5c3c4a] py-2 px-6 rounded-lg block mx-auto"
                     onClick={handlePurchase}
                   >
                     Purchase

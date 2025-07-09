@@ -21,18 +21,20 @@ export default function Home() {
   const goToSlide = (index) => setCurrentSlide(index);
 
   return (
-    <div className="bg-[#f4f4ca] min-h-screen text-[#333] font-sans">
+    <div className="bg-[#f4f4ca] min-h-screen text-[#333]">
       {/* Navbar */}
       <Navbar />
 
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row justify-evenly items-center p-6 bg-[#f7d7ba] m-6 rounded-xl shadow-md">
         <div>
-          <h2 className="text-[2.5rem] font-[cursive] text-[#d95f76]">Welcome to El Axolotito</h2>
-          <p className="mt-4 text-sm max-w-md">
-            A cozy spot where flavor meets fun! 🌮✨<br />
-            Enjoy vibrant Mexican dishes inspired by the charm of the axolotl.
-          </p>
+        <h2 className="text-[3.5rem] font-baloo text-[#d95f76]">
+          Welcome to El Axolotito
+        </h2>
+        <p className="font-baloo text-[#5c3c4a] mt-4 text-sm max-w-md">
+          A cozy spot where flavor meets fun! 🌮✨<br />
+          Enjoy vibrant Mexican dishes inspired by the charm of the axolotl.
+        </p>
         </div>
         <img src="/erasebg-transformed.png" alt="Axolotl Logo" className="w-[200px] h-auto mt-6 md:mt-0" />
       </section>

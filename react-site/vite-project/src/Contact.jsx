@@ -10,7 +10,7 @@ export default function Contact() {
         <section className="max-w-2xl mx-auto bg-[#fff1e6] p-8 rounded-xl shadow-md">
           <h2 className="text-center text-3xl mb-6 font-semibold text-[#d95f76]">Contact Us</h2>
           <form id="contact-form" className="flex flex-col gap-4">
-            <label htmlFor="name" className="text-sm font-medium">Name:</label>
+            <label htmlFor="name" className="text-sm text-[#5c3c4a] font-medium">Name:</label>
             <input
               type="text"
               id="name"
@@ -19,7 +19,7 @@ export default function Contact() {
               className="p-2 border border-gray-300 rounded"
             />
 
-            <label htmlFor="email" className="text-sm font-medium">Email:</label>
+            <label htmlFor="email" className="text-sm text-[#5c3c4a] font-medium">Email:</label>
             <input
               type="email"
               id="email"
@@ -28,7 +28,7 @@ export default function Contact() {
               className="p-2 border border-gray-300 rounded"
             />
 
-            <label htmlFor="message" className="text-sm font-medium">Message:</label>
+            <label htmlFor="message" className="text-sm text-[#5c3c4a] font-medium">Message:</label>
             <textarea
               id="message"
               name="message"
