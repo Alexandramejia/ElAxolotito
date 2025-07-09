@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 export default function Contact() {
   return (
-    <div className="bg-[#f4f4ca] min-h-screen flex flex-col font-josefin">
+    <div className="bg-[#f4f4ca] min-h-screen flex flex-col font-josefin overflow-x-hidden">
       <Navbar />
 
       <main className="flex-grow contact-page px-4 py-10">
